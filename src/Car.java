@@ -8,4 +8,14 @@ public class Car
           this.make = make;
           this.model = model;
      }
+
+     public String getModel()
+     {
+          return model;
+     }
+
+     public String getMake()
+     {
+          return make;
+     }
 }
