@@ -30,7 +30,7 @@ public class Car
           this.model = model;
      }
 
-     public Peron getOwner()
+     public Person getOwner()
      {
           return owner;
      }
