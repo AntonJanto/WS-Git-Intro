@@ -2,6 +2,7 @@ public class Car
 {
      private String make;
      private String model;
+     private String owner;
 
      public Car(String make, String model)
      {
@@ -27,5 +28,10 @@ public class Car
      public void setModel(String model)
      {
           this.model = model;
+     }
+
+     public String getOwner()
+     {
+          return owner;
      }
 }
