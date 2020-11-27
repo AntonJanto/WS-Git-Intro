@@ -2,7 +2,7 @@ public class Car
 {
      private String make;
      private String model;
-     private String owner;
+     private Person owner;
 
      public Car(String make, String model)
      {
@@ -30,7 +30,7 @@ public class Car
           this.model = model;
      }
 
-     public String getOwner()
+     public Peron getOwner()
      {
           return owner;
      }
